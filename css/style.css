@@ -1,0 +1,17 @@
+body {
+  background-color:aqua;
+}
+
+.button1 {
+  font-size: 24px;
+  background-color: darkgreen;
+}
+
+@media (max-width: 900px) {
+  .button1 {
+    background: blue;
+    width: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

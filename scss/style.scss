@@ -1,0 +1,57 @@
+body{
+  background-color: #1137e2;
+}
+
+.button0{
+  font-size: 24px;
+  background-color: darkgreen;
+
+}
+
+@mixin buttonNueve() {
+  @media (max-width: 900px) {
+    .button0 {
+      background: blue;
+      width: 60px;
+      @content;
+    }
+  }
+}
+
+@mixin buttonNueve() {
+  @media (max-width: 1200px) {
+    .button0 {
+      background:red;
+      width: 60px;
+      @content;
+    }
+  }
+}
+
+@include buttonNueve(){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
